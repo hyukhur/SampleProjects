@@ -17,6 +17,9 @@
 		4D85B4741CD7A7F7002D1A5F /* SampleProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B4731CD7A7F7002D1A5F /* SampleProjectUITests.m */; };
 		4D85B4821CD7A84C002D1A5F /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 4D85B4811CD7A84C002D1A5F /* Cartfile */; };
 		4D85B4851CD7AC4E002D1A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B4841CD7AC4E002D1A5F /* AppDelegate.swift */; };
+		4DE5108C1CE21ED400287C0D /* HHSomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE5108B1CE21ED400287C0D /* HHSomeView.m */; };
+		4DE5108E1CE21F8700287C0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE5108D1CE21F8700287C0D /* ViewController.swift */; };
+		4DE510911CE2206200287C0D /* HHAnotherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE510901CE2206200287C0D /* HHAnotherView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,11 @@
 		4D85B4811CD7A84C002D1A5F /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		4D85B4831CD7AC4E002D1A5F /* SampleProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		4D85B4841CD7AC4E002D1A5F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DE5108A1CE21ED400287C0D /* HHSomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSomeView.h; sourceTree = "<group>"; };
+		4DE5108B1CE21ED400287C0D /* HHSomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSomeView.m; sourceTree = "<group>"; };
+		4DE5108D1CE21F8700287C0D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DE5108F1CE2206200287C0D /* HHAnotherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAnotherView.h; sourceTree = "<group>"; };
+		4DE510901CE2206200287C0D /* HHAnotherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAnotherView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,11 @@
 				4D85B44E1CD7A7F7002D1A5F /* Supporting Files */,
 				4D85B4541CD7A7F7002D1A5F /* ViewController.h */,
 				4D85B4551CD7A7F7002D1A5F /* ViewController.m */,
+				4DE5108D1CE21F8700287C0D /* ViewController.swift */,
+				4DE5108A1CE21ED400287C0D /* HHSomeView.h */,
+				4DE5108B1CE21ED400287C0D /* HHSomeView.m */,
+				4DE5108F1CE2206200287C0D /* HHAnotherView.h */,
+				4DE510901CE2206200287C0D /* HHAnotherView.m */,
 			);
 			path = SampleProject;
 			sourceTree = "<group>";
@@ -282,10 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE5108E1CE21F8700287C0D /* ViewController.swift in Sources */,
 				4D85B4851CD7AC4E002D1A5F /* AppDelegate.swift in Sources */,
 				4D85B4561CD7A7F7002D1A5F /* ViewController.m in Sources */,
 				4D85B4531CD7A7F7002D1A5F /* AppDelegate.m in Sources */,
 				4D85B4501CD7A7F7002D1A5F /* main.m in Sources */,
+				4DE510911CE2206200287C0D /* HHAnotherView.m in Sources */,
+				4DE5108C1CE21ED400287C0D /* HHSomeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

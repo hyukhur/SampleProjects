@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HHSomeView.h"
 
 @interface ViewController : UIViewController
 
 
+@end
+
+@interface ViewController (Delegate) <HHSomeViewDelegate>
 @end
 

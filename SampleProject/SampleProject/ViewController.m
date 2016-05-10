@@ -25,3 +25,10 @@
 }
 
 @end
+
+@implementation ViewController (Delegate)
+- (void)someViewWillAction:(HHSomeView *)view
+{
+}
+@end
+
