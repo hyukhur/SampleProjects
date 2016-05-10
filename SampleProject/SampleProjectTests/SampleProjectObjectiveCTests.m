@@ -7,12 +7,14 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "SampleProjectTests-Swift.h"
+//#import "SampleProject-Swift.h"
 
-@interface SampleProjectTests : XCTestCase
+@interface SampleProjectObjectiveCTests : XCTestCase
 
 @end
 
-@implementation SampleProjectTests
+@implementation SampleProjectObjectiveCTests
 
 - (void)setUp {
     [super setUp];
@@ -25,8 +27,10 @@
 }
 
 - (void)testExample {
+//    XCTAssertEqual([[SwiftSubClass alloc] initWithAge:10], [[SwiftSubClass alloc] initWithAge:10]);
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
 }
 
 - (void)testPerformanceExample {

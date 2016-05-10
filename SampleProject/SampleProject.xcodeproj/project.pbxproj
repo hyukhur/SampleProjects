@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D03257F1D133BFF00DAFC2E /* HHObjcSuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D03257D1D133BFF00DAFC2E /* HHObjcSuperClass.m */; };
+		4D0325801D133BFF00DAFC2E /* SwiftSubClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D03257E1D133BFF00DAFC2E /* SwiftSubClass.swift */; };
+		4D0325831D133D4100DAFC2E /* SampleProjectSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0325821D133D4100DAFC2E /* SampleProjectSwiftTests.swift */; };
 		4D85B4501CD7A7F7002D1A5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B44F1CD7A7F7002D1A5F /* main.m */; };
 		4D85B4531CD7A7F7002D1A5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B4521CD7A7F7002D1A5F /* AppDelegate.m */; };
 		4D85B4561CD7A7F7002D1A5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B4551CD7A7F7002D1A5F /* ViewController.m */; };
 		4D85B4591CD7A7F7002D1A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D85B4571CD7A7F7002D1A5F /* Main.storyboard */; };
 		4D85B45B1CD7A7F7002D1A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D85B45A1CD7A7F7002D1A5F /* Assets.xcassets */; };
 		4D85B45E1CD7A7F7002D1A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D85B45C1CD7A7F7002D1A5F /* LaunchScreen.storyboard */; };
-		4D85B4691CD7A7F7002D1A5F /* SampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B4681CD7A7F7002D1A5F /* SampleProjectTests.m */; };
+		4D85B4691CD7A7F7002D1A5F /* SampleProjectObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B4681CD7A7F7002D1A5F /* SampleProjectObjectiveCTests.m */; };
 		4D85B4741CD7A7F7002D1A5F /* SampleProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B4731CD7A7F7002D1A5F /* SampleProjectUITests.m */; };
 		4D85B4821CD7A84C002D1A5F /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 4D85B4811CD7A84C002D1A5F /* Cartfile */; };
 		4D85B4851CD7AC4E002D1A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85B4841CD7AC4E002D1A5F /* AppDelegate.swift */; };
@@ -37,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D03257C1D133BFF00DAFC2E /* HHObjcSuperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHObjcSuperClass.h; sourceTree = "<group>"; };
+		4D03257D1D133BFF00DAFC2E /* HHObjcSuperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHObjcSuperClass.m; sourceTree = "<group>"; };
+		4D03257E1D133BFF00DAFC2E /* SwiftSubClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSubClass.swift; sourceTree = "<group>"; };
+		4D0325811D133D4100DAFC2E /* SampleProjectTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleProjectTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		4D0325821D133D4100DAFC2E /* SampleProjectSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleProjectSwiftTests.swift; sourceTree = "<group>"; };
 		4D85B44B1CD7A7F7002D1A5F /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D85B44F1CD7A7F7002D1A5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D85B4511CD7A7F7002D1A5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,7 +56,7 @@
 		4D85B45D1CD7A7F7002D1A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D85B45F1CD7A7F7002D1A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D85B4641CD7A7F7002D1A5F /* SampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D85B4681CD7A7F7002D1A5F /* SampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProjectTests.m; sourceTree = "<group>"; };
+		4D85B4681CD7A7F7002D1A5F /* SampleProjectObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProjectObjectiveCTests.m; sourceTree = "<group>"; };
 		4D85B46A1CD7A7F7002D1A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D85B46F1CD7A7F7002D1A5F /* SampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D85B4731CD7A7F7002D1A5F /* SampleProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProjectUITests.m; sourceTree = "<group>"; };
@@ -107,6 +115,9 @@
 		4D85B44D1CD7A7F7002D1A5F /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				4D03257C1D133BFF00DAFC2E /* HHObjcSuperClass.h */,
+				4D03257D1D133BFF00DAFC2E /* HHObjcSuperClass.m */,
+				4D03257E1D133BFF00DAFC2E /* SwiftSubClass.swift */,
 				4D85B4511CD7A7F7002D1A5F /* AppDelegate.h */,
 				4D85B4521CD7A7F7002D1A5F /* AppDelegate.m */,
 				4D85B4841CD7AC4E002D1A5F /* AppDelegate.swift */,
@@ -133,8 +144,10 @@
 		4D85B4671CD7A7F7002D1A5F /* SampleProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				4D85B4681CD7A7F7002D1A5F /* SampleProjectTests.m */,
+				4D0325821D133D4100DAFC2E /* SampleProjectSwiftTests.swift */,
+				4D85B4681CD7A7F7002D1A5F /* SampleProjectObjectiveCTests.m */,
 				4D85B46A1CD7A7F7002D1A5F /* Info.plist */,
+				4D0325811D133D4100DAFC2E /* SampleProjectTests-Bridging-Header.h */,
 			);
 			path = SampleProjectTests;
 			sourceTree = "<group>";
@@ -283,9 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D85B4851CD7AC4E002D1A5F /* AppDelegate.swift in Sources */,
+				4D0325801D133BFF00DAFC2E /* SwiftSubClass.swift in Sources */,
 				4D85B4561CD7A7F7002D1A5F /* ViewController.m in Sources */,
 				4D85B4531CD7A7F7002D1A5F /* AppDelegate.m in Sources */,
 				4D85B4501CD7A7F7002D1A5F /* main.m in Sources */,
+				4D03257F1D133BFF00DAFC2E /* HHObjcSuperClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D85B4691CD7A7F7002D1A5F /* SampleProjectTests.m in Sources */,
+				4D85B4691CD7A7F7002D1A5F /* SampleProjectObjectiveCTests.m in Sources */,
+				4D0325831D133D4100DAFC2E /* SampleProjectSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,11 +475,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = SampleProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HH.SampleProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleProjectTests/SampleProjectTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleProject.app/SampleProject";
 			};
@@ -473,11 +492,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = SampleProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HH.SampleProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleProjectTests/SampleProjectTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleProject.app/SampleProject";
 			};
